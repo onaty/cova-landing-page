@@ -1,0 +1,223 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px !important;
+}
+
+.h1-size {
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.h2-size {
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+.h3-size {
+    /* H3 */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    @media only screen and (max-width: 600px) {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+.h4-size {
+    /* H4 */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+}
+
+.h4-semibold {
+    /* H4 SemiBold */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.250em;
+    line-height: 25px;
+    @media only screen and (max-width: 600px) {
+        font-size: 15px;
+        line-height: 17px;
+    }
+}
+
+.h5-semibold {
+    /* H5 SemiBold */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 23px;
+
+    color: #c4c4c4;
+    @media only screen and (max-width: 600px) {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.p-big {
+    /* Paragraph */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+
+.p-normal {
+    /* Paragraph */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.938em;
+    line-height: 20px;
+
+    @media only screen and (max-width: 600px) {
+        font-family: BR Firma;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.p-medium {
+    /* Paragraph Medium */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 20px;
+    @media only screen and (max-width: 600px) {
+        font-family: BR Firma;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.p-semibold {
+    /* Paragraph Semibold */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 20px;
+    @media only screen and (max-width: 600px) {
+        font-family: BR Firma;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.helper-text {
+    /* Helper Text */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+}
+
+.p-bigbold {
+    /* Paragraph Big Bold */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    @media only screen and (max-width: 600px) {
+        font-family: BR Firma;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.p-mobile {
+    /* Paragraph Mobile */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+}
+
+.p-semibold-mobile {
+    /* Paragraph Semibold Mobile */
+
+    font-family: BR Firma;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.p-bold-mobile {
+    /* Paragraph Bold Mobile */
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+}
+
+.primary {
+    background: #0056cd;
+}
+
+.blackk {
+    background: #000000;
+}
+
+.lightgray {
+    background: #899598;
+}
+
+.lightergrey {
+    background: #ebecec;
+}

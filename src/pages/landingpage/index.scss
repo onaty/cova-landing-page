@@ -1,0 +1,438 @@
+.landingpage {
+    .familybackground {
+        background-image: url("../../assets/img//familyhome.png");
+        background-color: #cccccc;
+        height: 370px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 100px 10px 100px 100px;
+        .showmesomethings {
+            width: 650px;
+        }
+        .organiset {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 2.375em;
+            line-height: 48px;
+
+            /* White */
+
+            color: #ffffff;
+        }
+        .organisec {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 25px;
+
+            /* White */
+
+            color: #ffffff;
+            margin-top: 14px !important;
+            margin-bottom: 14px !important;
+        }
+
+        .tryc {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1em;
+            line-height: 20px;
+            color: #ffffff;
+            margin-top: 15px !important;
+        }
+    }
+    .how-it-works {
+        padding: 85px 130px 100px;
+        .beg1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 15px;
+            .journer {
+                width: 800px;
+                p {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 35px;
+                    text-align: center;
+
+                    color: #1e2329;
+                }
+            }
+
+            .hereishow {
+                width: 900px;
+                display: flex;
+                justify-content: flex-end;
+                .hereishow-text {
+                    font-family: BR Firma;
+                    font-style: italic;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 23px;
+                    /* identical to box height */
+
+                    /* Primary Brand Color */
+
+                    color: #0056cd;
+                    .icon001 {
+                        margin-right: 10px;
+                    }
+                    .text44 {
+                    }
+                }
+            }
+        }
+
+        .image-how-it {
+            display: flex;
+            .image-how-it-img-div {
+                img {
+                }
+                svg {
+                    width: 525px;
+                }
+            }
+            .left-img6 {
+                padding-right: 20px;
+            }
+            .right-img6 {
+                // padding-left: 15px;
+            }
+            .image-how-it-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .image-how-it-info-1 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: #1e2329;
+                }
+                .image-how-it-info-2 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #4f5d6d;
+                }
+            }
+        }
+    }
+
+    .secure-assets {
+        background: #001f4b;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 210px;
+        .secure-assets-width {
+            width: 670px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 540px;
+            .pixalo {
+                position: relative;
+                bottom: -140px;
+                /* height: 500px; */
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .secure-assets-t1 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+
+            /* White */
+
+            color: #ffffff;
+            margin-bottom: 18px !important;
+        }
+
+        .secure-assets-t2 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+
+            /* White */
+
+            color: #ffffff;
+            margin-bottom: 36px !important;
+        }
+    }
+
+    .pricing-assets {
+        padding-top: 200px;
+        padding-bottom: 125px;
+        display: flex;
+        justify-content: center;
+        .pricing-assets-inner {
+            width: 670px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pricing-header-1 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            color: #1e2329;
+        }
+
+        .pricing-header-2 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #4f5d6d;
+        }
+        .pricing-div {
+            margin-top: 40px;
+            background: #001f4b;
+            border-radius: 5px;
+            width: 480px;
+            padding: 20px;
+            .pricing-div-freq {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #ebf3ff;
+            }
+
+            .pricing-div-freq-price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 41px !important;
+                margin-bottom: 40px !important;
+                .pricing-div-freq-price-1 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 42px;
+                    line-height: 53px;
+                    /* identical to box height */
+
+                    text-align: center;
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+
+                .pricing-div-freq-price-2 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 23px;
+                    /* identical to box height */
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+            }
+        }
+        .p-try-1 {
+            margin-top: 20px !important;
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #1e2329;
+        }
+    }
+
+    .ready-to-get-started {
+        background: #0056cd;
+        padding: 70px;
+        display: flex;
+        justify-content: space-between;
+        .ready-to-get-started-1 {
+            flex: 3;
+            .ready-to-get-started-ready {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 35px;
+
+                /* White */
+
+                color: #ffffff;
+                margin-bottom: 26px !important;
+            }
+
+            .ready-to-get-started-start {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 23px;
+
+                /* White */
+
+                color: #ffffff;
+            }
+        }
+        .ready-to-get-started-2 {
+            flex: 2;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .getstarted-white {
+                background: #fff;
+                border-radius: 5px;
+
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+
+                /* White */
+
+                color: #001f4b;
+                padding: 15px 35px;
+                border: none;
+                outline: none;
+
+                width: 220px;
+                height: 56px;
+            }
+        }
+    }
+
+    .covafooter-1 {
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 51px 20px 34px 66px;
+        .logodiv {
+            width: 320px;
+        }
+
+
+        .urls {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            
+            .urls-header {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                /* identical to box height */
+
+                /* Type:/Primary Type */
+
+                color: #1e2329;
+            }
+
+            .urls-links {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20px;
+
+                /* Type:/Primary Type */
+
+                color: #1e2329;
+                text-decoration: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .url-socials {
+                display: flex;
+                .url-socials-t {
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    .covafooter-2{
+        border-top: 1px solid rgba(51, 51, 51, 0.13);
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 50px 30px;
+        .covafooter-2-1{
+            p{
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 18px;
+                color: #1E2329;
+            }
+
+        }
+
+        .covafooter-2-2{
+            .links-3{
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 18px;
+                text-decoration-line: underline;
+                color: #1E2329;
+                margin-right: 15px !important;
+            }
+        }
+    }
+}
+
+.getstarted {
+    background: #0056cd;
+    border-radius: 5px;
+
+    font-family: BR Firma;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    /* White */
+
+    color: #ffffff;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+
+    width: 220px;
+    height: 56px;
+    margin-right: 30px !important ;
+}
