@@ -69,7 +69,7 @@ export const LandingPage = () => {
                     </div>
                 </div>
 
-                <div className="image-how-it">
+                <div className="image-how-it depictreverse">
 
                     <div className="image-how-it-info">
                         <p className="image-how-it-info-1">
@@ -100,7 +100,7 @@ export const LandingPage = () => {
                     </div>
                 </div>
 
-                <div className="image-how-it">
+                <div className="image-how-it depictreverse">
 
                     <div className="image-how-it-info">
                         <p className="image-how-it-info-1">

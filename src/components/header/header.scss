@@ -47,4 +47,77 @@
             }
         }
     }
+
+    .mobile {
+        display: none;
+
+        padding: 0px 25px;
+
+        background: #ffffff;
+        // box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08);
+        .inner-top {
+            .v-222 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 70px;
+            }
+
+            .layer2 {
+                background: #ffffff;
+
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 25px;
+                .linksd {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1em;
+                    line-height: 20px;
+                    color: #1e2329;
+                    text-decoration: none;
+                    margin-bottom: 20px;
+                }
+                .linksd:focus,
+                .linksd:active,
+                .signin:active,
+                .signin:focus {
+                    outline: unset;
+                }
+                .signin {
+                    color: #0056cd;
+                }
+
+                .getstarted {
+                    background: #0056cd;
+                    border-radius: 5px;
+                    width: 100% !important;
+                    height: 43px !important;
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 19px;
+                    color: #ffffff;
+                    text-decoration: none;
+                    padding: unset !important;
+                    margin: unset;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
 }
