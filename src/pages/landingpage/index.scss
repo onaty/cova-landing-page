@@ -569,6 +569,94 @@
     // padding-right: 30px !important;
 
     // }
+    .pricing-assets {
+        padding-top: 10px !important;
+        padding-bottom: 125px;
+        display: flex;
+        justify-content: center;
+        .pricing-assets-inner {
+            width: 670px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pricing-header-1 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            color: #1e2329;
+        }
+
+        .pricing-header-2 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #4f5d6d;
+        }
+        .pricing-div {
+            margin-top: 40px;
+            background: #001f4b;
+            border-radius: 5px;
+            width: 480px;
+            padding: 20px;
+            .pricing-div-freq {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #ebf3ff;
+            }
+
+            .pricing-div-freq-price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 41px !important;
+                margin-bottom: 40px !important;
+                .pricing-div-freq-price-1 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36px !important;
+                    line-height: 39px !important;
+                    /* identical to box height */
+
+                    text-align: center;
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+
+                .pricing-div-freq-price-2 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px !important;
+                    line-height: 19px !important;
+                    /* identical to box height */
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+            }
+        }
+        .p-try-1 {
+            margin-top: 20px !important;
+          
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
     .secure-assets-width {
         width: 80% !important;
         padding-left: 10%;
@@ -584,10 +672,10 @@
         display: flex;
         justify-content: space-between;
 
-        padding: 51px 20px 34px 66px;
+        padding: 51px 20px 34px 20px !important;
         flex-wrap: wrap;
         .logodiv {
-            width: 320px;
+           display: none !important;
         }
 
         .urls {
@@ -601,7 +689,7 @@
 
     .ready-to-get-started {
         background: #0056cd;
-        padding: 30px !important;
+        padding: 30px 20px !important;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -612,11 +700,10 @@
                 font-family: BR Firma;
                 font-style: normal;
                 font-weight: 600;
-                font-size: 28px;
-                line-height: 35px;
+                font-size: 20px !important;
+                line-height: 22px !important;
 
-                /* White */
-
+           text-align: center;
                 color: #ffffff;
                 margin-bottom: 26px !important;
             }
@@ -625,9 +712,9 @@
                 font-family: BR Firma;
                 font-style: normal;
                 font-weight: 300;
-                font-size: 18px;
-                line-height: 23px;
-
+                font-size: 14px !important;
+                line-height: 17px !important;
+                text-align: center;
                 /* White */
 
                 color: #ffffff;
@@ -648,7 +735,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 25px 50px 30px;
+        padding: 25px 20px 30px !important;
         .covafooter-2-1 {
             p {
                 font-family: BR Firma;
