@@ -1,7 +1,8 @@
 .landingpage {
     .familybackground {
-        background-image: url("../../assets/img//familyhome.png");
-        background-color: #cccccc;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("../../assets/img//familyhome.png");
+        // background-color: #cccccc;
         height: 370px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -651,7 +652,7 @@
         }
         .p-try-1 {
             margin-top: 20px !important;
-          
+
             font-size: 16px;
             line-height: 20px;
         }
@@ -675,7 +676,7 @@
         padding: 51px 20px 34px 20px !important;
         flex-wrap: wrap;
         .logodiv {
-           display: none !important;
+            display: none !important;
         }
 
         .urls {
@@ -703,7 +704,7 @@
                 font-size: 20px !important;
                 line-height: 22px !important;
 
-           text-align: center;
+                text-align: center;
                 color: #ffffff;
                 margin-bottom: 26px !important;
             }
