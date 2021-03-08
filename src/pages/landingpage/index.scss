@@ -24,7 +24,7 @@
             font-family: BR Firma;
             font-style: normal;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 1.25em;
             line-height: 25px;
 
             /* White */
@@ -57,7 +57,7 @@
                     font-family: BR Firma;
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 28px;
+                    font-size: 1.75em;
                     line-height: 35px;
                     text-align: center;
 
@@ -333,18 +333,19 @@
     .covafooter-1 {
         display: flex;
         justify-content: space-between;
-        
+
         padding: 51px 20px 34px 66px;
         .logodiv {
             width: 320px;
+            display: flex;
+            align-items: center;
         }
-
 
         .urls {
             width: 320px;
             display: flex;
             flex-direction: column;
-            
+
             .urls-header {
                 font-family: BR Firma;
                 font-style: normal;
@@ -382,32 +383,31 @@
         }
     }
 
-    .covafooter-2{
+    .covafooter-2 {
         border-top: 1px solid rgba(51, 51, 51, 0.13);
         display: flex;
         justify-content: space-between;
         padding: 25px 50px 30px;
-        .covafooter-2-1{
-            p{
+        .covafooter-2-1 {
+            p {
                 font-family: BR Firma;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 18px;
-                color: #1E2329;
+                color: #1e2329;
             }
-
         }
 
-        .covafooter-2-2{
-            .links-3{
+        .covafooter-2-2 {
+            .links-3 {
                 font-family: BR Firma;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 18px;
                 text-decoration-line: underline;
-                color: #1E2329;
+                color: #1e2329;
                 margin-right: 15px !important;
             }
         }
@@ -438,10 +438,66 @@
 }
 
 @media only screen and (max-width: 786px) {
+    .familybackground {
+        padding: 100px 10px 100px 10px !important;
+        .showmesomethings {
+            width: unset !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .organiset {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.25em !important;
+            line-height: 24px !important;
+
+            /* White */
+
+            color: #ffffff;
+        }
+        .organisec {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1em !important;
+            line-height: 25px;
+
+            /* White */
+
+            color: #ffffff;
+            margin-top: 14px !important;
+            margin-bottom: 14px !important;
+        }
+
+        .tryc {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1em;
+            line-height: 20px;
+            color: #ffffff;
+            margin-top: 15px !important;
+        }
+    }
     .how-it-works {
         padding: 85px 70px 100px;
     }
-    
+    .journer {
+        width: 800px;
+        p {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.15em !important;
+            line-height: 24px !important;
+            text-align: center;
+
+            color: #1e2329;
+        }
+    }
     .image-how-it {
         display: flex;
         flex-direction: column;
@@ -483,7 +539,7 @@
         }
     }
 
-    .depictreverse{
+    .depictreverse {
         flex-direction: column-reverse !important;
     }
 
@@ -493,9 +549,8 @@
         align-items: center;
         margin-bottom: 15px;
         .journer {
-            width:100% !important;
+            width: 100% !important;
             p {
-            
             }
         }
 
@@ -504,7 +559,6 @@
             display: flex;
             justify-content: center;
             .hereishow-text {
-             
             }
         }
     }
@@ -517,13 +571,11 @@
     // }
     .secure-assets-width {
         width: 80% !important;
-        padding-left:  10%;
-        padding-right:  10%;
+        padding-left: 10%;
+        padding-right: 10%;
         .pixalo {
-            
-            img{
+            img {
                 width: 450px;
-
             }
         }
     }
@@ -531,13 +583,12 @@
     .covafooter-1 {
         display: flex;
         justify-content: space-between;
-        
+
         padding: 51px 20px 34px 66px;
         flex-wrap: wrap;
         .logodiv {
             width: 320px;
         }
-
 
         .urls {
             width: 320px;
@@ -545,10 +596,6 @@
             flex-direction: column;
 
             margin-top: 30px;
-       
-
-
-           
         }
     }
 
@@ -592,13 +639,135 @@
             justify-content: center !important;
             align-items: center;
             .getstarted-white {
-             
             }
+        }
+    }
+
+    .covafooter-2 {
+        border-top: 1px solid rgba(51, 51, 51, 0.13);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 25px 50px 30px;
+        .covafooter-2-1 {
+            p {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px !important;
+                line-height: 18px;
+                color: #1e2329;
+            }
+        }
+
+        .covafooter-2-2 {
+            .links-3 {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px !important;
+                line-height: 18px;
+                text-decoration-line: underline;
+                color: #1e2329;
+                margin-right: 15px !important;
+            }
+        }
+    }
+
+    .pricing-assets {
+        padding-top: 200px;
+        padding-bottom: 125px;
+        display: flex;
+        justify-content: center;
+        .pricing-assets-inner {
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pricing-header-1 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            color: #1e2329;
+        }
+
+        .pricing-header-2 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #4f5d6d;
+        }
+        .pricing-div {
+            margin-top: 40px;
+            background: #001f4b;
+            border-radius: 5px;
+            width: 480px;
+            padding: 20px;
+            .pricing-div-freq {
+                font-family: BR Firma;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #ebf3ff;
+            }
+
+            .pricing-div-freq-price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 41px !important;
+                margin-bottom: 40px !important;
+                .pricing-div-freq-price-1 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 42px;
+                    line-height: 53px;
+                    /* identical to box height */
+
+                    text-align: center;
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+
+                .pricing-div-freq-price-2 {
+                    font-family: BR Firma;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 23px;
+                    /* identical to box height */
+
+                    /* White */
+
+                    color: #ffffff;
+                }
+            }
+        }
+        .p-try-1 {
+            margin-top: 20px !important;
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #1e2329;
         }
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 745px) {
     .how-it-works {
         padding: 85px 30px 100px !important;
     }
@@ -606,7 +775,7 @@
         width: 96%;
     }
 
-    .landingpage .pricing-assets .pricing-div{
+    .landingpage .pricing-assets .pricing-div {
         width: 90%;
     }
     .image-how-it {
@@ -639,4 +808,12 @@
         }
     }
 
+    .landingpage .secure-assets .secure-assets-width .pixalo {
+        bottom: -100px;
+    }
+    .landingpage .pricing-assets {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
 }
