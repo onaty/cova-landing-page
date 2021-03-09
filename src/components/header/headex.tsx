@@ -12,11 +12,11 @@ export const HeadexComponent = () => {
                     <CovaLogo />
                 </div>
                 <div className="alllinks">
-                    <a className="linksd" href="">How it works</a>
-                    <a className="linksd" href="">Pricing</a>
-                    <a className="linksd" href="">Security</a>
-                    <a className="linksd signin" href="">Sign In</a>
-                    <a className="getstarted signup " href="">Get Started</a>
+                    <a className="linksd" href="/#how-it-works">How it works</a>
+                    <a className="linksd" href="/#pricing-assets">Pricing</a>
+                    <a className="linksd" href="/#secure-assets">Security</a>
+                    <a target="_blank"  className="linksd signin" href="https://beta.getcova.com/signin">Sign In</a>
+                    <a target="_blank"  className="getstarted signup " href="https://beta.getcova.com/signup">Get Started</a>
                 </div>
             </div>
 
@@ -34,11 +34,11 @@ export const HeadexComponent = () => {
                     </div>
 
                     <div  style={{ display: hidediv ? 'none' : 'flex' }} className="layer2">
-                        <a className="linksd" href="">How it works</a>
-                        <a className="linksd" href="">Pricing</a>
-                        <a className="linksd" href="">Security</a>
-                        <a className="linksd signin" href="">Sign In</a>
-                        <a className="getstarted signup " href="">Get Started</a>
+                        <a className="linksd" href="/#how-it-works">How it works</a>
+                        <a className="linksd" href="/#pricing-assets">Pricing</a>
+                        <a className="linksd" href="/#secure-assets">Security</a>
+                        <a target="_blank" className="linksd signin" href="https://beta.getcova.com/signin">Sign In</a>
+                        <a className="getstarted signup " target="_blank"  href="https://beta.getcova.com/signup">Get Started</a>
                     </div>
                 </div>
 

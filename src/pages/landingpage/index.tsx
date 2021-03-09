@@ -30,7 +30,10 @@ export const LandingPage = () => {
                 <div className="showmesomethings">
                     <p className="organiset">Organize all your assets in one place. Safely transfer to your beneficiary in the event of an emergency.</p>
                     <p className="organisec">Organize cryptocurrencies, bank accounts, stocks, investments and safely transfer your information to your beneficiaries in case of eventualities.</p>
-                    <button className="getstarted">Get Started</button>
+                    <button onClick={() => {
+                        window.location.replace("https://beta.getcova.com/signup");
+                    }}
+                        className="getstarted">Get Started</button>
                     <p className="tryc">Try Cova for 14 days free</p>
 
                 </div>
@@ -122,7 +125,11 @@ export const LandingPage = () => {
                 <div className="secure-assets-width">
                     <p className="secure-assets-t1">Secure Wealth Tracking & Inheritance Planning</p>
                     <p className="secure-assets-t2">Cova uses Bank Grade Security working with the world’s best agreegators to secure and manage your investment data. We understand you store and track your sensitive data with Cova.</p>
-                    <button className="getstarted">Get Started</button>
+                    <button 
+                     onClick={() => {
+                        window.location.replace("https://beta.getcova.com/signup");
+                    }}
+                    className="getstarted">Get Started</button>
                     <div className="pixalo">
                         <img src={Pixalo} alt="" />
                     </div>
@@ -153,7 +160,11 @@ export const LandingPage = () => {
                     <p className="ready-to-get-started-start">Start organizing your assets, tracking your investments, building your digital vault and setting up your beneficiaries for the future.</p>
                 </div>
                 <div className="ready-to-get-started-2">
-                    <button className="getstarted-white">Get Started</button>
+                    <button
+                     onClick={() => {
+                        window.location.replace("https://beta.getcova.com/signup");
+                    }}
+                    className="getstarted-white">Get Started</button>
                 </div>
             </div>
 
