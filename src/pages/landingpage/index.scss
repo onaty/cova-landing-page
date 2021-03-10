@@ -1,11 +1,12 @@
 .landingpage {
     .familybackground {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url("../../assets/img//familyhome.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("../../assets/img/familyhome.png");
         // background-color: #cccccc;
         height: 370px;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        // background-size: 100% 100%;
+        background-size: cover;
         padding: 100px 10px 100px 100px;
         .showmesomethings {
             width: 650px;
