@@ -1,15 +1,28 @@
 .landingpage {
     .familybackground {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url("../../assets/img/familyhome.png");
+        // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        //     url("../../assets/img/familyhome.png");
         // background-color: #cccccc;
-        height: 370px;
-        background-repeat: no-repeat;
+        // height: 370px;
+        // background-repeat: no-repeat;
         // background-size: 100% 100%;
-        background-size: cover;
-        padding: 100px 10px 100px 100px;
+        // background-size: cover;
+        background-color: white;
+        padding: 40px 30px 30px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         .showmesomethings {
-            width: 650px;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 7%;
+        }
+        .sided1 {
+            width: 55%;
+            img {
+                width: 100%;
+            }
         }
         .organiset {
             font-family: BR Firma;
@@ -19,8 +32,11 @@
             line-height: 48px;
 
             /* White */
-
-            color: #ffffff;
+            text-align: left !important;
+            color: #0056cd;
+            span {
+                color: #00b0f0;
+            }
         }
         .organisec {
             font-family: BR Firma;
@@ -28,10 +44,10 @@
             font-weight: 300;
             font-size: 1.25em;
             line-height: 25px;
-
+            text-align: left;
             /* White */
 
-            color: #ffffff;
+            color: #4f5d6d;
             margin-top: 14px !important;
             margin-bottom: 14px !important;
         }
@@ -42,8 +58,12 @@
             font-weight: normal;
             font-size: 1em;
             line-height: 20px;
-            color: #ffffff;
+            color: #1e2329;
             margin-top: 15px !important;
+            span {
+                font-weight: bold;
+                color: #1e2329;
+            }
         }
     }
     .how-it-works {
@@ -90,7 +110,37 @@
                 }
             }
         }
+        // #cf3 {
+        //     position: relative;
+        // }
 
+        // #cf3 img {
+        //     position: absolute;
+        // }
+        // .top {
+        //     animation-name: fade;
+        //     animation-timing-function: ease-in-out;
+        //     animation-iteration-count: infinite;
+        //     animation-duration: 1s;
+        //     animation-direction: alternate;
+        //     background-color: white;
+         
+        // }
+
+        // @keyframes fade {
+        //     0% {
+        //         opacity: 1;
+        //     }
+        //     25% {
+        //         opacity: 1;
+        //     }
+        //     75% {
+        //         opacity: 0;
+        //     }
+        //     100% {
+        //         opacity: 0;
+        //     }
+        // }
         .image-how-it {
             display: flex;
             .image-how-it-img-div {
@@ -103,6 +153,7 @@
             .left-img6 {
                 padding-right: 20px;
             }
+
             .right-img6 {
                 // padding-left: 15px;
             }
@@ -136,6 +187,30 @@
         display: flex;
         justify-content: center;
         margin-bottom: 210px;
+        // .dol-4{
+        // @keyframes cf3FadeInOut {
+        //     0% {
+        //     opacity:1;
+        //   }
+        //   45% {
+        //   opacity:1;
+        //   }
+        //   55% {
+        //   opacity:0;
+        //   }
+        //   100% {
+        //   opacity:0;
+        //   }
+        //   }
+
+        //   #cf3 img.top {
+        //   animation-name: cf3FadeInOut;
+        //   animation-timing-function: ease-in-out;
+        //   animation-iteration-count: infinite;
+        //   animation-duration: 10s;
+        //   animation-direction: alternate;
+        //   }
+
         .secure-assets-width {
             width: 670px;
             display: flex;
@@ -390,6 +465,7 @@
         display: flex;
         justify-content: space-between;
         padding: 25px 50px 30px;
+
         .covafooter-2-1 {
             p {
                 font-family: BR Firma;
@@ -412,6 +488,47 @@
                 color: #1e2329;
                 margin-right: 15px !important;
             }
+        }
+    }
+
+    .mobile44 {
+        background: #dfe9f6;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 74px;
+        bottom: 0px;
+        align-items: center;
+        justify-content: space-between;
+        // padding: 0px 20px;
+        .try909 {
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 14px;
+            color: #1e2329;
+            margin-left: 10px !important;
+            span {
+                font-weight: bold;
+            }
+        }
+        .getstarted22 {
+            margin-right: 10px !important;
+            background: #0056cd;
+            border-radius: 5px;
+            font-family: BR Firma;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            color: #ffffff;
+            /* padding: 15px 35px; */
+            border: none;
+            outline: none;
+            width: 100px;
+            height: 40px;
         }
     }
 }
@@ -441,25 +558,38 @@
 
 @media only screen and (max-width: 786px) {
     .familybackground {
-        padding: 100px 10px 100px 10px !important;
+        padding: 30px 10px 30px 10px !important;
+        display: flex;
+        flex-direction: column !important;
         .showmesomethings {
             width: unset !important;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
+            // align-items: center;
+            // text-align: center;
+            button {
+                display: none !important;
+            }
         }
-        .organiset {
-            font-family: BR Firma;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 1.25em !important;
-            line-height: 24px !important;
-
-            /* White */
-
-            color: #ffffff;
+        .sided1 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            width: 100% !important;
+            img {
+            }
         }
+        // .organiset {
+        //     font-family: BR Firma;
+        //     font-style: normal;
+        //     font-weight: 600;
+        //     font-size: 1.25em !important;
+        //     line-height: 24px !important;
+
+        //     /* White */
+
+        //     color: #ffffff;
+        // }
         .organisec {
             font-family: BR Firma;
             font-style: normal;
@@ -475,13 +605,7 @@
         }
 
         .tryc {
-            font-family: BR Firma;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1em;
-            line-height: 20px;
-            color: #ffffff;
-            margin-top: 15px !important;
+            display: none !important;
         }
     }
     .how-it-works {
@@ -660,9 +784,9 @@
     }
 
     .secure-assets-width {
-        width: 80% !important;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 90% !important;
+        padding-left: 5%;
+        padding-right: 5%;
         .pixalo {
             img {
                 width: 450px;
@@ -738,6 +862,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 25px 20px 30px !important;
+        margin-bottom: 70px;
         .covafooter-2-1 {
             p {
                 font-family: BR Firma;
@@ -854,6 +979,10 @@
             color: #1e2329;
         }
     }
+
+    .mobile44 {
+        display: flex !important;
+    }
 }
 
 @media only screen and (max-width: 745px) {
@@ -887,12 +1016,13 @@
         }
         .image-how-it-info {
             .image-how-it-info-1 {
-                font-size: 20px;
-                line-height: 22px;
+                font-size: 20px !important;
+                line-height: 22px !important;
+                margin-bottom: 12px !important;
             }
             .image-how-it-info-2 {
-                font-size: 16px;
-                line-height: 18px;
+                font-size: 16px !important;
+                line-height: 18px !important;
             }
         }
     }

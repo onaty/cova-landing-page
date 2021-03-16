@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { HeadexComponent } from '../../components/header/headex';
 import FammilyLove from '../../assets/svg/familylove.svg';
 import HowitWorks4 from '../../assets/svg/hotitworks4.svg';
@@ -16,9 +16,23 @@ import { CovaLogo } from '../../components/icons/covelogo';
 import { InstagramIcon } from '../../components/icons/instagram';
 import { TwittterIcon } from '../../components/icons/twittter';
 import { Facebookicon } from '../../components/icons/facebook';
-
+import { Homer12 } from '../../components/icons/homemaye';
+import ManDan from '../../assets/img/mandan.png'
 
 export const LandingPage = () => {
+    const [isImage, setisImage] = useState(1);
+
+    setTimeout(() => {
+        if (isImage==1) {
+            setisImage(2)
+        }else if (isImage==2) {
+            setisImage(3)
+        }else if (isImage==3) {
+            setisImage(4)
+        }else if (isImage==4) {
+            setisImage(1)
+        }
+    }, 3000);
     return (
         <div className="landingpage">
             <div className="headerholder">
@@ -28,14 +42,17 @@ export const LandingPage = () => {
                 {/* <img src={FammilyLove} alt="" /> */}
 
                 <div className="showmesomethings">
-                    <p className="organiset">Organize all your assets in one place. Safely transfer to your beneficiary in the event of an emergency.</p>
+                    <p className="organiset">Track <span>all</span> your assets in one place</p>
                     <p className="organisec">Organize cryptocurrencies, bank accounts, stocks, investments and safely transfer your information to your beneficiaries in case of eventualities.</p>
                     <button onClick={() => {
                         window.location.replace("https://beta.getcova.com/signup");
                     }}
                         className="getstarted">Get Started</button>
-                    <p className="tryc">Try Cova for 14 days free</p>
+                    <p className="tryc">Try Cova for <span> 14 days</span> free</p>
 
+                </div>
+                <div className="sided1">
+                    <img src={ManDan} alt="" />
                 </div>
             </div>
 
@@ -56,9 +73,14 @@ export const LandingPage = () => {
 
                 </div>
 
-                <div className="image-how-it">
-                    <div className="image-how-it-img-div left-img6">
-                        <img src={Howitworks1} alt="" />
+                <div className="image-how-it ">
+                    <div className="image-how-it-img-div left-img6 dol-4">
+                        <div id="cf3">
+                            <img style={{display:isImage==1?'block':'none'}}  className="top" src={Howitworks1} alt="" />
+                            <img style={{display:isImage==2?'block':'none'}}   className="bottom" src={Howitworks2} alt="" />
+                            <img style={{display:isImage==3?'block':'none'}}   src={Howitworks1} alt="" />
+                            <img style={{display:isImage==4?'block':'none'}}   src={Howitworks1} alt="" />
+                        </div>
                         {/* <Howitworks1 /> */}
                     </div>
                     <div className="image-how-it-info">
@@ -125,11 +147,11 @@ export const LandingPage = () => {
                 <div className="secure-assets-width">
                     <p className="secure-assets-t1">Secure Wealth Tracking & Inheritance Planning</p>
                     <p className="secure-assets-t2">Cova uses Bank Grade Security working with the world’s best agreegators to secure and manage your investment data. We understand you store and track your sensitive data with Cova.</p>
-                    <button 
-                     onClick={() => {
-                        window.location.replace("https://beta.getcova.com/signup");
-                    }}
-                    className="getstarted">Get Started</button>
+                    <button
+                        onClick={() => {
+                            window.location.replace("https://beta.getcova.com/signup");
+                        }}
+                        className="getstarted">Get Started</button>
                     <div className="pixalo">
                         <img src={Pixalo} alt="" />
                     </div>
@@ -161,10 +183,10 @@ export const LandingPage = () => {
                 </div>
                 <div className="ready-to-get-started-2">
                     <button
-                     onClick={() => {
-                        window.location.replace("https://beta.getcova.com/signup");
-                    }}
-                    className="getstarted-white">Get Started</button>
+                        onClick={() => {
+                            window.location.replace("https://beta.getcova.com/signup");
+                        }}
+                        className="getstarted-white">Get Started</button>
                 </div>
             </div>
 
@@ -212,6 +234,14 @@ export const LandingPage = () => {
                     <a href="" className="links-3">Privacy Policy</a>
                     <a href="" className="links-3">Terms and Conditions</a>
                 </div>
+            </div>
+            <div className="mobile44">
+                <p className="try909"> Try Cova for <span>14 days </span> free</p>
+
+                <button onClick={() => {
+                    window.location.replace("https://beta.getcova.com/signup");
+                }}
+                    className="getstarted22">Get Started</button>
             </div>
         </div>
     )
