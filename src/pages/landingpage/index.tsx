@@ -211,7 +211,7 @@ export const LandingPage = () => {
                 <div className="urls">
                     <p className="urls-header">Get in Touch</p>
                     <a className="urls-links" href="">support@getcova.com</a>
-                    <a className="urls-links" href="">+234 809 6062 291</a>
+                    <a className="urls-links" href="">+1(667) 771-4746</a>
                     <div className="url-socials">
                         <a className="url-socials-t" href="">
                             <TwittterIcon />
